@@ -334,7 +334,7 @@ def DeePore3D3(input_shape, output_shape):
 
     output_spec = Dense(output_shape[0])(dense2)
     model = Model(inputs=[input_spec], outputs=[output_spec])
-    optimiser = tf.keras.optimizers.RMSprop(1e-4)
+    optimiser = tf.keras.optimizers.RMSprop(1e-5)
 
 
 #CNN Model 4
