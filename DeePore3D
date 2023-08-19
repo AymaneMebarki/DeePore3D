@@ -213,7 +213,6 @@ def get_subsets(total_samples, train_split, val_split, test_split):
 
 
 #Indices Instantiation
-
 train_split = 0.7
 val_split = 0.1
 test_split = 0.2
@@ -461,5 +460,5 @@ for i in range(overall_true_values.shape[1]):
     print(f"R2 Score - Characteristic {i+1}: {r2:.4f}")
 
 average_r2 = sum(r2_scores) / len(r2_scores)
-print(f"Average R2 Score: {average_r2:.4f}")
+print(f"Average R2 values: {average_r2:.4f}")
 
